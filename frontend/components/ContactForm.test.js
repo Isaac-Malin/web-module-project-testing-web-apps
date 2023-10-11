@@ -135,7 +135,7 @@ test('renders all fields text when all fields are submitted.', async () => {
     const firstNameInput = screen.getByLabelText(/first name*/i);
     const lastNameInput = screen.getByLabelText(/last name*/i);
     const emailInput = screen.getByLabelText(/email*/i);
-    const messageInput = screen.getByLabelText(/message/i)
+    const messageInput = screen.getByLabelText(/message/i);
 
     userEvent.type(firstNameInput, 'Isaac');
     userEvent.type(lastNameInput, 'Malin');
